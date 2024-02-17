@@ -427,6 +427,9 @@ Config.Weapons = { -- Correspond weapon names to their class number
     [`WEAPON_EXHAUSTION`] = Config.WeaponClasses['SUFFOCATING'],          -- Exhaust
     [`WEAPON_BZGAS`] = Config.WeaponClasses['SUFFOCATING'],
     [`WEAPON_SMOKEGRENADE`] = Config.WeaponClasses['SUFFOCATING'],
+
+    --[[ CUSTOM ]]
+    [`WEAPON_BEANGBAGSHOTGUN`] = Config.WeaponClasses['NONE'], -- qb-beanbagshotgun
 }
 
 Config.VehicleSettings = { -- Enable or disable vehicle extras when pulling them from the ambulance job vehicle spawner

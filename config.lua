@@ -428,8 +428,54 @@ Config.Weapons = { -- Correspond weapon names to their class number
     [`WEAPON_BZGAS`] = Config.WeaponClasses['SUFFOCATING'],
     [`WEAPON_SMOKEGRENADE`] = Config.WeaponClasses['SUFFOCATING'],
 
-    --[[ CUSTOM ]]
+    --[[ qb-beanbagshotgun ]]
     [`WEAPON_BEANGBAGSHOTGUN`] = Config.WeaponClasses['NONE'], -- qb-beanbagshotgun
+    --[[ custom-weapons ]]
+        --[[ HIGH CALIBER ]]
+    [`WEAPON_DE`] = Config.WeaponClasses['HIGH_CALIBER'],
+    [`WEAPON_M4`] = Config.WeaponClasses['HIGH_CALIBER'],
+    [`WEAPON_HK416`] = Config.WeaponClasses['HIGH_CALIBER'],
+    [`WEAPON_AR15`] = Config.WeaponClasses['HIGH_CALIBER'],
+    [`WEAPON_AK47`] = Config.WeaponClasses['HIGH_CALIBER'],
+    [`WEAPON_M70`] = Config.WeaponClasses['HIGH_CALIBER'],
+    [`WEAPON_SCARH`] = Config.WeaponClasses['HIGH_CALIBER'],
+    [`WEAPON_MK14`] = Config.WeaponClasses['HIGH_CALIBER'],
+    [`WEAPON_M110`] = Config.WeaponClasses['HIGH_CALIBER'],
+    [`WEAPON_HUNTINGRIFLE`] = Config.WeaponClasses['HIGH_CALIBER'],
+        --[[ MEDIUM CALIBER ]]
+    [`WEAPON_UZI`] = Config.WeaponClasses['MEDIUM_CALIBER'],
+    [`WEAPON_MAC10`] = Config.WeaponClasses['MEDIUM_CALIBER'],
+    [`WEAPON_MP9`] = Config.WeaponClasses['MEDIUM_CALIBER'],
+        --[[ SMALL CALIBER ]]
+    [`WEAPON_GLOCK17`] = Config.WeaponClasses['SMALL_CALIBER'],
+    [`WEAPON_M9`] = Config.WeaponClasses['SMALL_CALIBER'],
+    [`WEAPON_M1911`] = Config.WeaponClasses['SMALL_CALIBER'],
+    [`WEAPON_FNX45`] = Config.WeaponClasses['SMALL_CALIBER'],
+        --[[ SHOTGUN ]]
+    [`WEAPON_REMINGTON`] = Config.WeaponClasses['SHOTGUN'],
+    [`WEAPON_MOSSBERG`] = Config.WeaponClasses['SHOTGUN'],
+        --[[ CUTTING ]]
+    [`WEAPON_SHIV`] = Config.WeaponClasses['CUTTING'],
+    [`WEAPON_KATANA`] = Config.WeaponClasses['CUTTING'],
+    [`WEAPON_BAYONETKNIFE`] = Config.WeaponClasses['CUTTING'],
+    [`WEAPON_BLUEBFKNIFE`] = Config.WeaponClasses['CUTTING'],
+    [`WEAPON_BFKNIFE`] = Config.WeaponClasses['CUTTING'],
+    [`WEAPON_CHBFKNIFE`] = Config.WeaponClasses['CUTTING'],
+    [`WEAPON_CRIMSONBFKNIFE`] = Config.WeaponClasses['CUTTING'],
+    [`WEAPON_FADEBFKNIFE`] = Config.WeaponClasses['CUTTING'],
+    [`WEAPON_FLIPKNIFE`] = Config.WeaponClasses['CUTTING'],
+    [`WEAPON_FORESTBFKNIFE`] = Config.WeaponClasses['CUTTING'],
+    [`WEAPON_GUTKNIFE`] = Config.WeaponClasses['CUTTING'],
+    [`WEAPON_HUNTSMANKNIFE`] = Config.WeaponClasses['CUTTING'],
+    [`WEAPON_KARAMBITKNIFE`] = Config.WeaponClasses['CUTTING'],
+    [`WEAPON_SAFARIBFKNIFE`] = Config.WeaponClasses['CUTTING'],
+    [`WEAPON_SCORCHEDBFKNIFE`] = Config.WeaponClasses['CUTTING'],
+    [`WEAPON_SLAUGHTERBFKNIFE`] = Config.WeaponClasses['CUTTING'],
+    [`WEAPON_STAINEDRBFKNIFE`] = Config.WeaponClasses['CUTTING'],
+    [`WEAPON_URBANRBFKNIFE`] = Config.WeaponClasses['CUTTING'],
+        --[[ HEAVY IMPACT ]]
+    [`WEAPON_SLEDGEHAMMER`] = Config.WeaponClasses['HEAVY_IMPACT'],
+    [`WEAPON_PERFORATOR`] = Config.WeaponClasses['HEAVY_IMPACT'],
 }
 
 Config.VehicleSettings = { -- Enable or disable vehicle extras when pulling them from the ambulance job vehicle spawner
